@@ -1,0 +1,44 @@
+/*### Header + Nav ###*/
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+.header-inscription1
+{
+    color: #0065FC;
+    font-weight: 800;
+}
+.header-inscription1 a:visited
+{
+    color: #0065FC;
+}
+.header-inscription2 a:visited
+{
+    color: #0065FC;
+}
+
+.header-hebergements
+{
+    color: #0065FC;
+    font-weight: 400;
+}
+.header-hebergements a:visited
+{
+    color: #0065FC;
+}
+.header-activites
+{
+    color:black;
+    font-weight: 400;
+}
+.header-activites a:visited
+{
+    color: black;
+}

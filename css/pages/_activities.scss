@@ -1,0 +1,44 @@
+/*### activites à Marseille ###*/
+
+#activites-Marseille
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-primary;
+    margin-bottom:50px;
+    height:1334px;
+}
+.texte-activites
+{
+    font-size:1.3em ;
+    font-weight: 800;
+}
+
+.activite-vieuxport, .activite-fort, .activite-frioul, .activite-calanques, .activite-garde, .activite-longchamps
+{
+    height:190px;
+    width: 335px;
+    box-shadow: 1px 1px 30px #c2bfbf;
+    border-radius: 25px;
+    margin: 25px 5% 0 5%;
+}
+.activite-vieuxport img, .activite-fort img, .activite-frioul img, .activite-calanques img, .activite-garde img, .activite-longchamps img
+{
+    object-fit: cover;
+    height: 135px;
+    width: 335px;
+    border-radius: 25px 25px 0 0;
+    
+    
+}
+
+.activite-vieuxport h3, .activite-fort h3, .activite-frioul h3, .activite-calanques h3, .activite-garde h3, .activite-longchamps h3
+{
+   margin: 3% 0 0 6%;
+   color: $color-dark;
+}
+.activite-vieuxport:hover, .activite-fort:hover, .activite-frioul:hover, .activite-calanques:hover, .activite-garde:hover, .activite-longchamps:hover
+{
+    box-shadow: 5px 5px 20px $color-dark;
+}

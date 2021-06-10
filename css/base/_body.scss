@@ -1,0 +1,28 @@
+/* Remise à zero */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+   font-family: 'Raleway' , sans-serif;
+    margin: auto;
+    
+}
+
+/* fin de la remise a zero */
+
+/* Parametres generaux lien et liste à puce */
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+  list-style-type: none;
+}

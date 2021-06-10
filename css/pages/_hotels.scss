@@ -1,0 +1,179 @@
+/*### info +de 500 logements ###*/
+#info
+{
+    display: flex;
+    
+    margin: 15px 10px 40px 5%;
+    
+}
+.icone-info
+{
+    color:   $color-tertiary;
+    border: 2px solid $color-secondary;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    padding: 4px 7px 7px 10px;
+    
+}
+.texte-logements
+{
+    padding:8px 0 0 8px;
+}
+
+/*### hotel populaires ###*/
+
+.populaires
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.populaires p
+{
+    margin-right: 70px
+}
+.populaires i
+{
+    margin: 3px 0 0 70px;
+    font-size: 1.3em;
+}
+#hotel1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:$color-secondary;
+    height: 580px;
+    width: 100%;
+    padding-bottom: 25px;
+}
+#hotel1 p
+{
+    font-size:1.17em ;
+    font-weight: 900;
+    
+        
+}
+.carte-hotel1
+{
+    background-color: $color-primary;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px #c2bfbf;
+    margin: 0 5% 15px 5%;
+    height: 145px;
+    width:335px;
+}
+.carte-hotel1:hover
+{
+    box-shadow: 5px 5px 20px $color-dark;
+}
+.carte-hotel1 img
+{
+    object-fit: cover;
+    height: 135px;
+    width: 127px;
+    margin: 5px 0px 5px 5px;
+    border-radius: 25px 0 0 25px;
+    float:left;
+}
+.carte-hotel1 h3
+{
+   margin: 5% 10% 0% 43%;
+   color: $color-dark;
+}
+.carte-hotel1 h4
+{
+    margin: 2% 5% 6% 43%;
+    color: $color-dark;
+    font-weight: 500;
+    font-size: 0.98em;
+}
+.carte-hotel1 li
+{
+    display: inline;
+    color:$color-tertiary;
+    font-size: 0.7em;
+    
+}
+.carte-hotel1 ul
+{
+    margin-left: 43% ;
+
+}
+/*## Hotel à Marseille ##*/
+.texte1-hotel2
+{
+font-size: 1.3em;
+font-weight: 800;
+}
+.texte2-hotel2
+{
+    font-size:1.3em ;
+    font-weight: 800;
+}
+#hotel2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-primary;
+}
+
+.carte-hotel2
+{
+    background-color: $color-primary;
+    height: 200px;
+    width: 335px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 30px #c2bfbf;
+    margin: 5px 5% 5px 5%;
+    
+}
+.carte-hotel2:hover
+{
+    box-shadow: 5px 5px 20px $color-dark;
+}
+.carte-hotel2 img
+{
+    object-fit: cover;
+    height: 115px;
+    width: 325px;
+    border-radius:23px 23px 0 0;
+    margin: 5px 0 0 5px;;
+ 
+}
+.carte-hotel2 h3
+{
+   margin: 0 5% 0 5%;
+   color: $color-dark;
+}
+.carte-hotel2 h4
+{
+    margin: 1% 5% 0 5%;
+    color: $color-dark;
+    font-weight: 500;
+    font-size: 0.98em;
+}
+.carte-hotel2 li
+{
+    display: inline;
+    color:$color-tertiary;
+    font-size: 0.7em;
+}
+.carte-hotel2 ul
+{
+    margin:0 5% 2% 5%;
+}
+.afficherplus1
+{
+    font-size:1.20em ;
+    font-weight: bold;
+}
+.afficherplus2
+{
+    font-size:1.20em ;
+    font-weight: bold;
+    align-items: center;
+    
+} 

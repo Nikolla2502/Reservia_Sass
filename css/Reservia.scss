@@ -1,0 +1,512 @@
+@import"base/body";
+
+@import"utils/variables";
+
+@import"layouts/header";
+@import"layouts/footer";
+
+@import"pages/search";
+@import"pages/hotels";
+@import"pages/activities";
+
+
+            /* ################################# */
+            /* ###   Responsive           ###### */
+            /* ### Format Telephone  -767 ###### */
+            /* ################################# */
+
+@media all and (max-width: 767px)
+{
+    header
+    {
+    height:130px;
+    }
+    header img
+    {
+    margin: 30px 0 0 20px;
+    }
+    nav
+    {
+    height: 50px;
+    width:100%;
+    }
+    .header-inscription1
+    {
+    margin:55px 0 0 38%;
+    }
+    .header-inscription1:hover
+    {
+        font-weight:900;
+        text-shadow: 5px 5px 15px;
+    }
+    .header-inscription2
+    {
+    display:none;
+    }
+    .header-hebergements
+    {
+    border-bottom:3px solid $color-tertiary;
+    padding:15px 0 0 15%;
+    width:50%;
+    }
+    .header-hebergements:hover
+    {
+        font-weight:600;
+        text-shadow: 10px 10px 20px;
+    }
+    .header-activites
+    {
+    border-bottom:3px solid $color-secondary;
+    padding: 15px 0 0 15%;
+    width: 50%; 
+    }
+    .header-activites:hover
+    {
+        font-weight:600;
+        text-shadow: 10px 10px 20px;
+    }
+    .texte1
+    {
+    padding: 35px 0 0 10px;
+    }
+    .texte2
+    {
+    padding: 10px 0 25px 10px;    
+    }
+    .populaires
+    {
+
+    margin: 40px 0 25px 0;
+    }
+
+   .recherche-search2
+    {
+        display:none;
+    }
+    .filtres-title2
+    {
+        display:none;
+    }
+    .texte1-hotel2
+    {
+    margin: 40px 75px 30px 5%; 
+    }
+    .texte2-hotel2
+    {
+        display:none; 
+    }
+    .afficherplus1
+    {
+    margin: 36px 75px 60px 20px;
+    }
+    .afficherplus2
+    {
+        display:none;
+    }
+    .texte-activites
+    {
+    margin: 0 0 7px 5%; 
+    }
+    /*### Header Nav Telephone ### Fin ###*/
+} 
+
+                    /* ############################# */
+                    /* ####  Responsive       ###### */
+                    /* ####  Format tablette  ###### */
+                    /* ############################# */
+
+@media all and (min-width: 768px)
+{
+    header img
+    {
+    margin: 30px 0 0 45px;
+    }
+    .header-inscription1
+    {
+    display:none;
+    }
+    nav
+    {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    }
+
+    .header-inscription2
+    {
+    color: $color-tertiary;
+    font-weight: 800;
+    padding: 40px 35px 0 35px; 
+    }
+    .header-inscription2:hover
+    {
+    border-top:3px solid $color-tertiary;
+    text-shadow: 5px 5px 15px;
+    }
+    .header-hebergements
+    {
+    color: $color-tertiary;
+    
+    border-bottom: none;
+    padding: 40px 25px 0 25px;
+    }
+    .header-hebergements:hover
+    {
+    border-top:3px solid $color-tertiary;
+    text-shadow: 5px 5px 15px;
+    }
+    .header-activites
+    {
+    color:$color-dark;
+   
+    border-bottom: none;
+    padding: 40px 35px 0 35px;
+    }
+    .header-activites:hover
+    {
+    border-top:3px solid $color-secondary;
+    text-shadow: 5px 5px 15px;
+    }
+    .texte1
+    {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-left: 50px ;
+   
+    }
+    .texte2
+    {
+    padding: 5px 0 20px 50px;
+
+    }
+    
+    #recherche
+    {
+        display: flex;
+        justify-content: center;
+        max-width:420px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        margin-left:50px;
+        
+    }
+    .recherche-search1
+    {
+        display:none;
+    }
+    .filtres-title2
+    {
+        display:none;
+    }
+    .populaires
+    {
+
+    margin: 0 0 30px 0;
+    }
+    #hotel1
+    {
+
+        height: 625px;
+        width: 420px;
+        padding-top:45px;
+        padding-bottom:35px;
+        border-radius: 30px;
+        margin: 0 0 0 22%;
+        
+    }
+    /* ### Hotel à Marseille ### */
+    .texte1-hotel2
+    {
+    margin: 40px 75px 30px 5%; 
+    }
+    .texte2-hotel2
+    {
+        display:none; 
+    }
+    #hotel2
+    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color: $color-primary;
+    /* align-items: center; */
+    }
+    .carte-hotel2{
+    background-color: $color-primary;
+    height: 200px;
+    width: 335px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 30px #c2bfbf;
+    margin: 0% 2% 5% 4%;
+    }
+    .afficherplus1
+    {
+        display:none;
+    }
+    .afficherplus2
+    {
+    align-items: center;
+    margin: 0 75px 60px 10%;
+    } 
+
+    
+    /* ### Activités à Marseille ###*/
+    #activites-Marseille
+    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $color-primary;
+    height:700px;
+    }
+    .activite-vieuxport, .activite-fort, .activite-frioul, .activite-calanques, .activite-garde, .activite-longchamps
+{
+    height:190px;
+    width: 335px;
+    margin: 25px 3% 0 3%;
+    
+}
+    .activite
+    {
+    height:190px;
+    width: 335px;
+    box-shadow: 1px 1px 30px #c2bfbf;
+    border-radius: 25px;
+    margin: 2% 2% 0 2%;
+    }
+    .texte-activites
+    {
+    margin: 0 0 7px 20px; 
+    }
+    
+    footer
+    {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 20px 20px 0 15px;
+        height: 218px;
+        
+    }
+
+}
+                        /* ################################ */
+                        /* ####  Responsive          ###### */
+                        /* ####  Format desktop 1024 ###### */
+                        /* ################################ */
+@media all and (min-width: 1024px)
+{
+    nav
+    {
+    width: 80%;
+    }
+    
+    #corps
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row-reverse;
+        justify-content: center;
+    }
+    .filtres-title1
+    {
+        display:none;
+    }
+    .filtres-title2
+    {
+        display:inline;
+        padding: 18px;
+    }
+
+    #hotel1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:$color-secondary;
+        height: 625px;
+        width: 420px;
+        padding-top:45px;
+        padding-bottom:35px;
+        border-radius: 30px;
+        margin: 0 0 15px 2%;
+        
+    }
+    .carte-hotel1
+    {
+    background-color: $color-primary;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px #c2bfbf;
+    margin: 0 5% 25px 5%;
+    height: 145px;
+    width:345px;
+    }
+    .texte1-hotel2
+    {
+        display:none; 
+    }
+    .texte2-hotel2
+    {
+        display: inline;
+        margin:45px 400px 25px 40px;
+        font-weight: bold;
+        font-size: 1.20em;
+    }
+    #hotel2
+    {
+        display: flex;
+        align-items: center;
+        background-color: $color-secondary;
+        height: 625px;
+        width: 880px;
+        border-radius: 30px;
+    }
+ 
+    .carte-hotel2
+    {
+        background-color: $color-primary;
+        height: 200px;
+        width: 245px;
+        border-radius: 30px;
+        box-shadow: 1px 1px 30px #c2bfbf;
+        margin-left: 20px;
+        
+        
+    }
+    .carte-hotel2 img
+    {
+        object-fit: cover;
+        height: 115px;
+        width: 235px;
+        border-radius:23px 23px 0 0;
+        margin: 5px 0 0 5px;
+     
+    }
+    .afficherplus2
+    {
+    
+    align-items: center;
+    margin: 0 75px 20px 40px;
+    
+    } 
+
+    .texte-activites
+    {
+    font-size:1.20em ;
+    font-weight: bold;
+    padding: 30px 0 0 70px;
+    
+    }
+    #activites-Marseille
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: $color-primary;
+        height:700px;
+
+    }
+    footer
+    {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 50px 150px 55px 50px;
+        height: 218px;
+            
+    }
+}
+            /* ################################ */
+            /* ####  Responsive          ###### */
+            /* ####  Format desktop 1440 ###### */
+            /* ################################ */
+@media all and (min-width: 1440px)
+{
+    
+    .filtres-title1
+    {
+        display:none;
+    }
+    .filtres-title2
+    {
+        display:inline;
+        padding: 18px;
+    }
+    .texte-activites
+    {
+    margin: 0 0 7px 0px; 
+    padding: 30px 0 0 50px;
+    }
+    #activites-Marseille
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: $color-primary;
+        height:530px;
+       
+    }
+    .activite-vieuxport, .activite-calanques
+    {
+        height:445px;
+        width: 300px;
+        margin: 25px 40px 0 40px;
+    }
+    .activite-vieuxport img, .activite-calanques img
+    {
+        height: 390px;
+        width: 300px;
+    }
+    .activite-fort
+    {
+        height:235px;
+        width: 300px;
+        margin: 25px 0 20px 0;
+    }
+    .activite-fort img
+    {
+        height: 180px;
+        width: 300px; 
+    }
+    .activite-frioul
+    {
+        height:165px;
+        width: 300px;
+        margin: 25px 0 0 0;
+    }
+    .activite-frioul img
+    {
+        height: 110px;
+        width: 300px; 
+    }
+    .activite-garde
+    {
+        height:195px;
+        width: 300px;
+        margin: 25px 40px 0 0;
+    }
+    .activite-garde img
+    {
+        height: 140px;
+        width: 300px; 
+    }
+    .activite-longchamps
+    {
+        height:210px;
+        width: 300px;
+        margin: 40px 40px 0 0;
+    }
+    .activite-longchamps img
+    {
+        height: 155px;
+        width: 300px;
+    }
+    footer
+    {
+    padding: 50px 370px 55px 50px;
+    height: 218px;
+
+    }
+   
+
+}
